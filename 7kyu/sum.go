@@ -3,6 +3,5 @@
 package kata
 
 func RowSumOddNumbers(n int) int {
-	// your code here
-	return (1 + (n-1)*n/2.0 + (n - 1)) * n
+    return n * n * n
 }
